@@ -1,5 +1,5 @@
 _            = require 'underscore'
-wire         = require '../build/Release/i2c'
+wire         = require '../build/Release/node-i2c'
 EventEmitter = require('events').EventEmitter
 tick         = setImmediate || process.nextTick
 
